@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon panier d'achat</title>  
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+    <div class="cart-item bg-gray-200 mx-auto text-center mt-12 rounded py-4">
+        <p class="item-name text-3xl text-slate-700">ws-counter dom</p>
+        <p class="item-price text-xl text-slate-800">$10.00</p>
+
+        <div class="quantity-controls mx-auto bg-gray-200  ">
+        <button id="minus" class="btn-minus text-3xl text-slate-600 border w-12 h-12 rounded-full ">-</button>
+        <span class="quantity ">1</span>
+        <button id="plus" class="btn-plus text-3xl text-slate-600 border w-12 h-12 rounded-full">+</button>
+        </div>
+        <button id="delete" class="btn-delete">Remove</button>
+        <button id="like" class="btn-like">❤️</button>
+    </div>
+    <div class="bg-gray-200 text-center" id="total-price">$0.00</div>
+    
+
+
+
+
+
+
+
+
+
+<script src="./main.js"></script>
+
+
+</body>
+</html>
